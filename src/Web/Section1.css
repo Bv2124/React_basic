@@ -1,0 +1,372 @@
+.Section1{
+    width: 80%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+}
+.M1_txt{
+    color: black!important;
+    font-weight: 800;
+    -webkit-text-stroke: 0.5px snow;
+}
+.M1_txt p{
+    color: snow;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.Ad{
+    width: 60%;
+    height: 35em;
+    margin: 0 auto;
+    display: flex;
+    border: solid white;
+    position: relative;
+}
+.Ad1_img, .Ad2_img, .Ad3_img, .Ad4_img{
+    width: 100%!important;
+    height: 35em!important;
+    position: relative;
+}
+.Ad1_logo{
+    width: 10em;
+    height: 2em;
+    position: absolute;
+    z-index:1;
+    top: 1em;
+    right: 1em;
+    background-color: snow;
+    outline: solid snow;
+}
+.Ad3_txt{
+    color: snow;
+    text-align: justify;
+}
+.Ad3_txt h3{
+    position: relative;
+    top: -8em;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+.Ad3_txt p{
+    font-size: 1.5em;
+    position: relative;
+    top: 2em;
+}
+.Ad4_txt p{
+    font-size: 1.5em;
+    font-weight: 700;
+    position: relative;
+    top: 0.5em;
+}
+.H{
+    width: 40%;
+    height: 35.25em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid white;
+}
+.H1{
+    width: 100%;
+    height: 17.5em;
+    outline: solid white;
+    position: relative;
+}
+.H1 p{
+    z-index:1;
+    position: absolute;
+    font-weight: 800;
+    color: snow;
+    background-color: black;
+    display: block;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    top: 89%;
+}
+.H1_img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: grid;
+}
+.Dp1, .Dp2{
+    position: absolute;
+    z-index:1;
+    width: 3em;
+    height: 3em;
+    left: 85%;
+    top: 1em;
+}
+.Awareness{
+    position: absolute;
+    z-index:1;
+    font-size: 13px;
+    width: 6em;
+    height: 2em;
+    right: 81%;
+    top: 0.5em;
+    font-weight: 600;
+    border: none;
+    background-image: linear-gradient(144deg,orangered 50%,rgb(235, 86, 86));
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    justify-content: center;
+    text-decoration: none;
+}
+.Awareness:hover{
+    background-image: none;
+    background-color: white;
+    color: orangered;
+}
+.Button1{
+    top: -22em;
+    right: -7.5em;
+}
+.B2{
+    top:-22em ;
+    left: -7.5em;
+}
+.Ad_B2{
+    top:0.5em ;
+    left:0.5em;
+}
+.Ad_B3{
+    top:-31.7em ;
+    left: -7.5em;
+}
+.Ad_B4{
+    top:-19.2em ;
+    right: -7.5em;
+}
+.Ad_B5{
+    top:-28.5em ;
+    left: -7.5em;
+}
+
+.H2{
+    width: 100%;
+    height: 18em;
+    outline: solid white 0.3em;
+    position: relative;
+}
+.H2 p{
+    z-index:3;
+    position: absolute;
+    font-weight: 800;
+    color:black;
+    background-color: snow;
+    top: 80%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.H2_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.Banner{
+    width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.B1{
+  width: 80%;
+}
+.Banner_img{
+    width: 100%;
+    border: solid snow;
+    height: 100%;
+    margin: 0 auto;
+}
+.carousel-control-prev-icon{
+    background-image: url(./images/Arrow2.png);
+    width: 3em;
+    height: 3em;
+}
+.carousel-control-next-icon{
+    background-image: url(./images/Arrow1.png);
+    width: 3em;
+    height: 3em;
+}
+.heart {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: rotate(45deg);
+    animation: animateHeart 2s infinite;
+    left: 32%;
+    bottom: 4.5em;
+  }
+  .heart22{
+    background-color: red;
+    animation: animateHeart 3s infinite!important;
+  }
+  .heart22::before, .heart22::after{
+    background-color: red!important;
+  }
+  .heart2{
+    left: -35%;
+    top: 1em;
+    background-color: red!important;
+    width: 50px!important;
+    height: 50px!important;
+  }
+  .heart2::before, .heart2::after{
+    background-color: red!important;
+    width: 50px!important;
+    height: 50px!important;
+  }
+  .heart2::before {
+    left: -25px!important;
+  }
+  .heart2::after {
+    top: -25px!important;
+  }
+  .heart::before, .heart::after {
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .heart::before {
+    left: -50px;
+  }
+  .heart::after {
+    top: -50px;
+  }
+  @keyframes animateHeart {
+    0% {
+      transform: rotate(45deg) scale(0.8);
+    }
+    5% {
+      transform: rotate(45deg) scale(0.9);
+    }
+    10% {
+      transform: rotate(45deg) scale(0.8);
+    }
+    15% {
+      transform: rotate(45deg) scale(1);
+    }
+    50% {
+      transform: rotate(45deg) scale(0.8);
+    }
+    100% {
+      transform: rotate(45deg) scale(0.8);
+    }
+  }
+  .Heart{
+    height:5em;
+    position:absolute;
+    width: 90%;
+  }
+  .Magazine{
+    align-items: center;
+    background: #E3E3E3;
+    display: flex;
+    height: 25.5em;
+    justify-content: center;
+    width: 80%;
+    border: solid white 1.5em;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 20em;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 97%;
+  }
+  .slider::before, .slider::after {
+    content: "";
+    height: 20em;
+    position: absolute;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: 100%;
+  }
+  .slider img{
+    border: solid white 1.5em;
+  }
+  @media (max-width:1470px) {
+    .H{
+        display: none;
+    }
+    .Ad{
+      width: 100%!important;
+      display: flex!important;
+  }
+  .carousel{
+    width: 100%;
+    height: 100%;
+  }
+  .Awareness{
+    display: none;
+  }
+}
+  @media (max-width:1240px) {
+  .H{
+      display: none!important;
+  }
+  .H1,.H2{
+      display: none;
+  }
+  .Ad{
+      width: 100%!important;
+  }
+  .carousel{
+      width: 100%;
+      display: flex;
+  }
+  .Awareness{
+    display: none!important;
+  } 
+  .Ad3_txt p{
+    display: none;
+  }
+  .Heart{
+    display: none;
+  }
+  }
+  @media (max-width:600px) {
+    .Ca_5{
+      position: relative;
+      top: 50%;
+      right: -10%;
+    }
+    .Ca_6{
+      display: none;
+    }
+  }
+  
